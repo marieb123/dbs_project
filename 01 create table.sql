@@ -28,5 +28,5 @@ CREATE TABLE hashtag_table (
     
 CREATE TABLE contains (
     tweet_id integer REFERENCES tweet (tweet_id),
-    hashtag text REFERENCES hashtag_tableac (hashtag)
+    hashtag text REFERENCES hashtag_table (hashtag)
     )
